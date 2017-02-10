@@ -18,6 +18,8 @@ npm i -S @prepair/locale-support
 * use metadata in the browser with webpack or browserify.
 * use generated code in your own repository.
 
+## usage
+
 ### metadata
 
 ```js
