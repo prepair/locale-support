@@ -1,0 +1,53 @@
+{
+  "name": "@prepair/locale-support",
+  "version": "1.0.0",
+  "description": "Locale related data for prepair in a bundle.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint src lib",
+    "build": "node src/build.js",
+    "test": "node test",
+    "precommit": "npm run lint && npm test",
+    "release": "npm run build && git status --porcelain && git checkout master && git pull origin master && standard-version && git push --follow-tags origin master && npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prepair/locale-support.git"
+  },
+  "keywords": [
+    "locale",
+    "i18n",
+    "moment"
+  ],
+  "author": "prepair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prepair/locale-support/issues"
+  },
+  "homepage": "https://github.com/prepair/locale-support#readme",
+  "devDependencies": {
+    "babel-core": "6.22.1",
+    "babel-preset-es2015-ie": "6.6.2",
+    "cldr-data": "29.0.2",
+    "currency-format": "1.0.6",
+    "eslint": "3.15.0",
+    "eslint-config-semistandard": "7.0.0",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-promise": "3.4.1",
+    "eslint-plugin-react": "6.9.0",
+    "eslint-plugin-standard": "2.0.1",
+    "husky": "0.13.1",
+    "jsonschema": "1.1.1",
+    "moment": "2.17.1",
+    "object-get": "2.1.0",
+    "shelljs": "0.7.6",
+    "shx": "0.2.2",
+    "standard-version": "4.0.0"
+  },
+  "dependencies": {
+    "dedent": "0.7.0"
+  }
+}
