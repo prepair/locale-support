@@ -29,17 +29,18 @@ import { metadata } from '@prepair/locale-support';
 * contains locale data for [accounting](http://openexchangerates.github.io/accounting.js/)
 * contains currency data (code, short symbol, precision)
 
-### moment proxy
+### moment proxy code
 
 ```js
+require('shelljs/global');
 const localeSupport = require('@prepair/locale-support');
-const writeMomentLoader = localeSupport.writeMomentLoader;
+const getMomentLoader = localeSupport.getMomentLoader;
 
-writeMomentLoader('./moment.js');
+getMomentLoader().to('./moment.js');
 ```
 
 * use this inside the 'localization' gulp task
-* generates a js file with moment and moment locales as dependency
+* generates js code with moment locales as dependency
 * output requires babel transpilation
 * include the generated file in your vendor pack
 
