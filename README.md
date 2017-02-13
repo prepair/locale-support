@@ -70,3 +70,8 @@ Add new data to _./src/config.js_
 * moment id
 
 then run `npm run build`.
+
+## TODO
+
+* refactor "src - lib - lib-es5" so that instead of 2 build cycles we should use 1
+* transpile config.js, before someone accidentally adds an es6 keyword there
