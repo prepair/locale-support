@@ -44,6 +44,22 @@ getMomentLoader().to('./moment.js');
 * output requires babel transpilation
 * include the generated file in your vendor pack
 
+### mod rewrite partial regexp
+
+Returns a regexpish partial string for mod rewrite, created from the dotnet lang ids.
+
+For example: `bg-bg|bs-latn-ba|cs-cz`
+
+```js
+const localeSupport = require('@prepair/locale-support');
+const ruleChunk = localeSupport.getModRewriteRex();
+```
+
+* with no params it returns all the lang ids
+* ids are sorted before concatenation
+* `localeSupport.getModRewriteRex({rtl: true})` - rtl only ids
+* `localeSupport.getModRewriteRex({rtl: false})` - non rtl only ids
+
 ## adding new locales
 
 Add new data to _./src/config.js_

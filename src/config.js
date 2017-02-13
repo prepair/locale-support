@@ -9,7 +9,7 @@ const supportedLocales = [
   { dotNetId: 'en-GB', currency: ['GBP', 'EUR', 'HRK', 'USD', 'CHF', 'AED'], cldr: 'en-GB', momentId: 'en-gb' },
   { dotNetId: 'es-ES', currency: 'EUR', cldr: 'es', momentId: 'es' },
   { dotNetId: 'fr-FR', currency: 'EUR', cldr: 'fr', momentId: 'fr' },
-  { dotNetId: 'he-IL', currency: 'ILS', cldr: 'he', momentId: 'he' },
+  { dotNetId: 'he-IL', currency: 'ILS', cldr: 'he', momentId: 'he', rtl: true },
   { dotNetId: 'it-IT', currency: 'EUR', cldr: 'it', momentId: 'it' },
   { dotNetId: 'lv-LV', currency: ['EUR', 'LVL'], cldr: 'lv', momentId: 'lv' },
   { dotNetId: 'mk-MK', currency: 'MKD', cldr: 'mk', momentId: 'mk' },

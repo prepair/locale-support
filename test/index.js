@@ -81,3 +81,17 @@ describe('moment loader', () => {
     rm('tmp.js');
   });
 });
+
+describe('mod rewrite partial regexp string', () => {
+  it('should return a partial rule for all the dotnet locales', () => {
+    assert.equal(lib.getModRewriteRex(), 'bg-bg|bs-latn-ba|cs-cz|de-de|en-gb|es-es|fr-fr|he-il|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sr-cyrl-cs|sv-se|uk-ua');
+  });
+
+  it('should return a partial rule for rtl only locales', () => {
+    assert.equal(lib.getModRewriteRex({ rtl: true }), 'he-il');
+  });
+
+  it('should return a partial rule for non rtl locales', () => {
+    assert.equal(lib.getModRewriteRex({ rtl: false }), 'bg-bg|bs-latn-ba|cs-cz|de-de|en-gb|es-es|fr-fr|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sr-cyrl-cs|sv-se|uk-ua');
+  });
+});
