@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.1"></a>
+## [1.3.1](https://github.com/prepair/locale-support/compare/v1.3.0...v1.3.1) (2017-02-13)
+
+
+### Bug Fixes
+
+* **es5:** config is now pure es5 ([25d17db](https://github.com/prepair/locale-support/commit/25d17db))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/prepair/locale-support/compare/v1.2.0...v1.3.0) (2017-02-13)
 
