@@ -144,6 +144,10 @@ module.exports = {
       "symbol": "Kč",
       "precision": 2
     },
+    "DKK": {
+      "symbol": "kr",
+      "precision": 2
+    },
     "EUR": {
       "symbol": "€",
       "precision": 2
