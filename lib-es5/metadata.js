@@ -176,6 +176,10 @@ module.exports = {
       "symbol": "Ls",
       "precision": 2
     },
+    "MDL": {
+      "symbol": "MDL",
+      "precision": 2
+    },
     "MKD": {
       "symbol": "ден",
       "precision": 2

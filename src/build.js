@@ -12,7 +12,8 @@ const metaDataTarget = '../lib/metadata.js';
 // neither intl polyfill nor cldr has the name of the default currency
 // fix missing currencies here, or report them to https://github.com/xsolla/currency-format/issues/new
 const currencyOverlay = {
-  GEL: { symbol: { grapheme: '₾' } }
+  GEL: { symbol: { grapheme: '₾' } },
+  MDL: { symbol: { grapheme: 'MDL' } }
 };
 
 // ----

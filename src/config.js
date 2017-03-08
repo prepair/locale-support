@@ -9,7 +9,7 @@ module.exports = {
     { dotNetId: 'cs-CZ', currency: 'CZK', cldr: 'cs', momentId: 'cs' },
     { dotNetId: 'bs-Latn-BA', currency: 'BAM', cldr: 'bs-Latn', momentId: 'bs' },
     { dotNetId: 'de-DE', currency: 'EUR', cldr: 'de', momentId: 'de' },
-    { dotNetId: 'en-GB', currency: ['GBP', 'EUR', 'HRK', 'USD', 'CHF', 'AED', 'DKK'], cldr: 'en-GB', momentId: 'en-gb' },
+    { dotNetId: 'en-GB', currency: ['GBP', 'EUR', 'HRK', 'USD', 'CHF', 'AED', 'DKK', 'MDL'], cldr: 'en-GB', momentId: 'en-gb' },
     { dotNetId: 'es-ES', currency: 'EUR', cldr: 'es', momentId: 'es' },
     { dotNetId: 'fr-FR', currency: 'EUR', cldr: 'fr', momentId: 'fr' },
     { dotNetId: 'he-IL', currency: 'ILS', cldr: 'he', momentId: 'he', rtl: true },
