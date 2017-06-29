@@ -64,7 +64,11 @@ function localeMetaDataBuilder () {
   getCurrenciesToInclude().forEach(id => {
     let symbol = oget(currencyFormat, `${id}.symbol.grapheme`) || oget(currencyOverlay, `${id}.symbol.grapheme`);
     let precision = oget(currencyFormat, `${id}.fractionSize`); // this can be 0, which is totally valid
-    if (typeof symbol === 'undefined' || typeof precision === 'undefined') {
+    if (!symbol) {
+      symbol = id;
+      console.warn(`Currency "${id}" has no grapheme symbol, using the id.`);
+    }
+    if (typeof precision === 'undefined') {
       throw new Error(`Incomplete currency data for '${id}'`); // ahh, sorry :(
     }
     output.currencies[id] = {

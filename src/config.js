@@ -6,8 +6,9 @@ module.exports = {
   supportedLocales: [
     { dotNetId: 'hu-HU', currency: 'HUF', cldr: 'hu', momentId: 'hu' },
     { dotNetId: 'bg-BG', currency: 'BGN', cldr: 'bg', momentId: 'bg' },
-    { dotNetId: 'cs-CZ', currency: 'CZK', cldr: 'cs', momentId: 'cs' },
     { dotNetId: 'bs-Latn-BA', currency: 'BAM', cldr: 'bs-Latn', momentId: 'bs' },
+    { dotNetId: 'ca-ES', currency: 'EUR', cldr: 'ca', momentId: 'ca' },
+    { dotNetId: 'cs-CZ', currency: 'CZK', cldr: 'cs', momentId: 'cs' },
     { dotNetId: 'de-DE', currency: 'EUR', cldr: 'de', momentId: 'de' },
     { dotNetId: 'en-GB', currency: ['GBP', 'EUR', 'HRK', 'USD', 'CHF', 'AED', 'DKK', 'MDL'], cldr: 'en-GB', momentId: 'en-gb' },
     { dotNetId: 'es-ES', currency: 'EUR', cldr: 'es', momentId: 'es' },
@@ -24,6 +25,7 @@ module.exports = {
     { dotNetId: 'ro-RO', currency: 'RON', cldr: 'ro', momentId: 'ro' },
     { dotNetId: 'ru-RU', currency: 'RUB', cldr: 'ru', momentId: 'ru' },
     { dotNetId: 'sk-SK', currency: 'EUR', cldr: 'sk', momentId: 'sk' },
+    { dotNetId: 'sq-AL', currency: 'EUR', cldr: 'sq', momentId: 'sq' },
     { dotNetId: 'sv-SE', currency: 'SEK', cldr: 'sv', momentId: 'sv' },
     { dotNetId: 'sr-Cyrl-CS', currency: 'RSD', cldr: 'sr-Cyrl', momentId: 'sr-cyrl' },
     { dotNetId: 'uk-UA', currency: 'UAH', cldr: 'uk', momentId: 'uk' },

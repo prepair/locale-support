@@ -12,13 +12,18 @@ module.exports = {
       "decimal": ",",
       "currencyFormat": "%v %s"
     },
-    "cs-cz": {
-      "thousand": " ",
+    "bs-latn-ba": {
+      "thousand": ".",
       "decimal": ",",
       "currencyFormat": "%v %s"
     },
-    "bs-latn-ba": {
+    "ca-es": {
       "thousand": ".",
+      "decimal": ",",
+      "currencyFormat": "%v %s"
+    },
+    "cs-cz": {
+      "thousand": " ",
       "decimal": ",",
       "currencyFormat": "%v %s"
     },
@@ -60,7 +65,7 @@ module.exports = {
     "mk-mk": {
       "thousand": ".",
       "decimal": ",",
-      "currencyFormat": "%s %v"
+      "currencyFormat": "%v %s"
     },
     "lt-lt": {
       "thousand": " ",
@@ -98,6 +103,11 @@ module.exports = {
       "currencyFormat": "%v %s"
     },
     "sk-sk": {
+      "thousand": " ",
+      "decimal": ",",
+      "currencyFormat": "%v %s"
+    },
+    "sq-al": {
       "thousand": " ",
       "decimal": ",",
       "currencyFormat": "%v %s"

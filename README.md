@@ -2,10 +2,14 @@
 
 Locale related data in a neat bundle.
 
+Warning: locale and currency connections are defined by @prepair specs
+(meaning that even though in a country the standard currency may be XXX, we support payments in
+YYY so we will use the latter in the config file).
+
 ## supported locales
 
 ```js
-supportedLocales = ["bg","bs","cs","de","en-gb","es","fr","he","hu","it","ka","lt","lv","mk","nb","nl","pl","pt","ro","ru","sk","sr-cyrl","sv","uk"];
+supportedLocales = ["bg","bs","ca","cs","de","en-gb","es","fr","he","hu","it","ka","lt","lv","mk","nb","nl","pl","pt","ro","ru","sk","sq","sr-cyrl","sv","uk"];
 ```
 
 ## installation
@@ -65,7 +69,7 @@ const ruleChunk = localeSupport.getModRewriteRex();
 Add new data to _./src/config.js_
 
 * .NET locale id (see: http://www.localeplanet.com/)
-* preferred currency
+* currency preferred by @prepair
 * cldr id
 * moment id
 

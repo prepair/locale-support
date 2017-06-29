@@ -15,7 +15,7 @@ node_modules
 jspm_packages
 .npm
 .node_repl_history
-
+package-lock.json
 # ----
 .idea
 .DS_Store
