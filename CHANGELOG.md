@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.7.0"></a>
+# [1.7.0](https://github.com/prepair/locale-support/compare/v1.6.0...v1.7.0) (2018-04-10)
+
+
+### Bug Fixes
+
+* **currency:** move MDL to ro-RO culture ([d7c9606](https://github.com/prepair/locale-support/commit/d7c9606))
+
+
+### Features
+
+* **language:** Enable Greek language ([59a5a97](https://github.com/prepair/locale-support/commit/59a5a97))
+
+
 
 <a name="1.6.1"></a>
 # [1.6.1](https://github.com/prepair/locale-support/compare/v1.6.0...v1.6.1) (2017-09-28)
