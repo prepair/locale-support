@@ -131,6 +131,11 @@ module.exports = {
       "thousand": " ",
       "decimal": ",",
       "currencyFormat": "%v %s"
+    },
+    "el-gr": {
+      "thousand": ".",
+      "decimal": ",",
+      "currencyFormat": "%v %s"
     }
   },
   "currencies": {

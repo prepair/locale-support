@@ -28,15 +28,15 @@ describe('metadata', () => {
     // schema of locales
     Object.keys(lib.metadata.locales).forEach(key => {
       let locale = lib.metadata.locales[key];
-      let validity = (validator.validate(locale, {
+      let validity = validator.validate(locale, {
         type: 'object',
         properties: {
           thousand: { type: 'string' },
           decimal: { type: 'string' },
           currencyFormat: { type: 'string' }
         },
-        required: [ 'thousand', 'decimal', 'currencyFormat' ]
-      }));
+        required: ['thousand', 'decimal', 'currencyFormat']
+      });
       assert.equal(validity.errors.length, 0);
     });
 
@@ -45,14 +45,14 @@ describe('metadata', () => {
       // currency codes are uppercased
       assert.equal(key.toUpperCase(), key);
       let currency = lib.metadata.currencies[key];
-      let validity = (validator.validate(currency, {
+      let validity = validator.validate(currency, {
         type: 'object',
         properties: {
-          symbol: { 'type': 'string' },
-          precision: { 'type': 'integer' }
+          symbol: { type: 'string' },
+          precision: { type: 'integer' }
         },
-        required: [ 'symbol', 'precision' ]
-      }));
+        required: ['symbol', 'precision']
+      });
       assert.equal(validity.errors.length, 0);
     });
   });
@@ -66,8 +66,8 @@ describe('moment loader', () => {
     let momentLoader = require('../tmp.js'); // eval and vm will not work with the require
     assert.equal(typeof momentLoader.default, 'function');
 
-    // the last inserted locale was ka
-    assert.equal(moment.locale(), 'ka');
+    // the last inserted locale was el
+    assert.equal(moment.locale(), 'el');
 
     // now we select an added locale
     momentLoader.default('hu');
@@ -84,7 +84,10 @@ describe('moment loader', () => {
 
 describe('mod rewrite partial regexp string', () => {
   it('should return a partial rule for all the dotnet locales', () => {
-    assert.equal(lib.getModRewriteRex(), 'bg-bg|bs-latn-ba|ca-es|cs-cz|de-de|en-gb|es-es|fr-fr|he-il|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sq-al|sr-cyrl-cs|sv-se|uk-ua');
+    assert.equal(
+      lib.getModRewriteRex(),
+      'bg-bg|bs-latn-ba|ca-es|cs-cz|de-de|el-gr|en-gb|es-es|fr-fr|he-il|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sq-al|sr-cyrl-cs|sv-se|uk-ua'
+    );
   });
 
   it('should return a partial rule for rtl only locales', () => {
@@ -92,6 +95,9 @@ describe('mod rewrite partial regexp string', () => {
   });
 
   it('should return a partial rule for non rtl locales', () => {
-    assert.equal(lib.getModRewriteRex({ rtl: false }), 'bg-bg|bs-latn-ba|ca-es|cs-cz|de-de|en-gb|es-es|fr-fr|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sq-al|sr-cyrl-cs|sv-se|uk-ua');
+    assert.equal(
+      lib.getModRewriteRex({ rtl: false }),
+      'bg-bg|bs-latn-ba|ca-es|cs-cz|de-de|el-gr|en-gb|es-es|fr-fr|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sq-al|sr-cyrl-cs|sv-se|uk-ua'
+    );
   });
 });
