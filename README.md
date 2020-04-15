@@ -9,7 +9,7 @@ YYY so we will use the latter in the config file).
 ## supported locales
 
 ```js
-supportedLocales = ["bg","bs","ca","cs","de","el","en-gb","es","fr","he","hu","it","ka","lt","lv","mk","nb","nl","pl","pt","ro","ru","sk","sq","sr-cyrl","sv","uk"];
+supportedLocales = ["ar","bg","bs","ca","cs","de","el","en-gb","es","fr","he","hu","it","ka","lt","lv","mk","nb","nl","pl","pt","ro","ru","sk","sq","sr-cyrl","sv","uk"];
 ```
 
 ## installation
