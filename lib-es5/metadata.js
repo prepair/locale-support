@@ -43,7 +43,7 @@ module.exports = {
       "currencyFormat": "%v %s"
     },
     "fr-fr": {
-      "thousand": " ",
+      "thousand": " ",
       "decimal": ",",
       "currencyFormat": "%v %s"
     },
@@ -125,7 +125,7 @@ module.exports = {
     "uk-ua": {
       "thousand": " ",
       "decimal": ",",
-      "currencyFormat": "%v%s"
+      "currencyFormat": "%v %s"
     },
     "ka-ge": {
       "thousand": " ",
@@ -136,6 +136,11 @@ module.exports = {
       "thousand": ".",
       "decimal": ",",
       "currencyFormat": "%v %s"
+    },
+    "ar-ae": {
+      "thousand": ",",
+      "decimal": ".",
+      "currencyFormat": "%s%v"
     }
   },
   "currencies": {

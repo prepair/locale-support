@@ -30,6 +30,7 @@ module.exports = {
     { dotNetId: 'sr-Cyrl-CS', currency: 'RSD', cldr: 'sr-Cyrl', momentId: 'sr-cyrl' },
     { dotNetId: 'uk-UA', currency: 'UAH', cldr: 'uk', momentId: 'uk' },
     { dotNetId: 'ka-GE', currency: 'GEL', cldr: 'ka', momentId: 'ka' },
-    { dotNetId: 'el-GR', currency: 'EUR', cldr: 'el', momentId: 'el' }
+    { dotNetId: 'el-GR', currency: 'EUR', cldr: 'el', momentId: 'el' },
+    { dotNetId: 'ar-ae', currency: 'AED', cldr: 'ar', momentId: 'ar', rtl: true }
   ]
 };

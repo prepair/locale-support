@@ -66,8 +66,8 @@ describe('moment loader', () => {
     let momentLoader = require('../tmp.js'); // eval and vm will not work with the require
     assert.equal(typeof momentLoader.default, 'function');
 
-    // the last inserted locale was el
-    assert.equal(moment.locale(), 'el');
+    // the last inserted locale was ar
+    assert.equal(moment.locale(), 'ar');
 
     // now we select an added locale
     momentLoader.default('hu');
@@ -86,12 +86,12 @@ describe('mod rewrite partial regexp string', () => {
   it('should return a partial rule for all the dotnet locales', () => {
     assert.equal(
       lib.getModRewriteRex(),
-      'bg-bg|bs-latn-ba|ca-es|cs-cz|de-de|el-gr|en-gb|es-es|fr-fr|he-il|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sq-al|sr-cyrl-cs|sv-se|uk-ua'
+      'ar-ae|bg-bg|bs-latn-ba|ca-es|cs-cz|de-de|el-gr|en-gb|es-es|fr-fr|he-il|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sq-al|sr-cyrl-cs|sv-se|uk-ua'
     );
   });
 
   it('should return a partial rule for rtl only locales', () => {
-    assert.equal(lib.getModRewriteRex({ rtl: true }), 'he-il');
+    assert.equal(lib.getModRewriteRex({ rtl: true }), 'ar-ae|he-il');
   });
 
   it('should return a partial rule for non rtl locales', () => {
