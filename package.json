@@ -46,7 +46,7 @@
     "object-get": "2.1.0",
     "shelljs": "0.7.6",
     "shx": "0.2.2",
-    "standard-version": "4.0.0"
+    "standard-version": "8.0.1"
   },
   "dependencies": {
     "dedent": "0.7.0"
