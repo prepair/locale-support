@@ -9,7 +9,7 @@ YYY so we will use the latter in the config file).
 ## supported locales
 
 ```js
-supportedLocales = ["ar","bg","bs","ca","cs","de","el","en-gb","es","fr","he","hu","it","ka","lt","lv","mk","nb","nl","pl","pt","ro","ru","sk","sq","sr-cyrl","sv","uk"];
+supportedLocales = ["ar-ae","bg-BG","bs-Latn-BA","ca-ES","cs-CZ","de-DE","el-GR","en-GB","es-ES","fr-FR","he-IL","hu-HU","it-IT","ka-GE","lt-LT","lv-LV","mk-MK","nb-NO","nl-NL","pl-PL","pt-PT","ro-RO","ru-RU","sk-SK","sq-AL","sr-Cyrl-CS","sv-SE","uk-UA"];
 ```
 
 ## installation
@@ -18,7 +18,7 @@ supportedLocales = ["ar","bg","bs","ca","cs","de","el","en-gb","es","fr","he","h
 npm i -S @prepair/locale-support
 ```
 
-* metadata and moment code generator assumes a node context.
+* metadata code generator assumes a node context.
 * use metadata in the browser with webpack or browserify.
 * use generated code in your own repository.
 
@@ -32,21 +32,6 @@ import { metadata } from '@prepair/locale-support';
 
 * contains locale data for [accounting](http://openexchangerates.github.io/accounting.js/)
 * contains currency data (code, short symbol, precision)
-
-### moment proxy code
-
-```js
-require('shelljs/global');
-const localeSupport = require('@prepair/locale-support');
-const getMomentLoader = localeSupport.getMomentLoader;
-
-getMomentLoader().to('./moment.js');
-```
-
-* use this inside the 'localization' gulp task
-* generates js code with moment locales as dependency
-* output requires babel transpilation
-* include the generated file in your vendor pack
 
 ### mod rewrite partial regexp
 
@@ -71,7 +56,6 @@ Add new data to _./src/config.js_
 * .NET locale id (see: http://www.localeplanet.com/)
 * currency preferred by @prepair
 * cldr id
-* moment id
 
 then run `npm run build`.
 

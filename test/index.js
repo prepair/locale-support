@@ -1,9 +1,7 @@
 /* global rm:false */
 require('shelljs/global');
 const assert = require('assert');
-const moment = require('moment');
 const lib = require('../lib');
-const babel = require('babel-core');
 const Validator = require('jsonschema').Validator;
 const validator = new Validator();
 
@@ -55,30 +53,6 @@ describe('metadata', () => {
       });
       assert.equal(validity.errors.length, 0);
     });
-  });
-});
-
-describe('moment loader', () => {
-  it('should generate a valid js', () => {
-    let code = lib.getMomentLoader();
-    let result = babel.transform(code, { presets: ['es2015-ie'] }).code;
-    result.to('tmp.js');
-    let momentLoader = require('../tmp.js'); // eval and vm will not work with the require
-    assert.equal(typeof momentLoader.default, 'function');
-
-    // the last inserted locale was ar
-    assert.equal(moment.locale(), 'ar');
-
-    // now we select an added locale
-    momentLoader.default('hu');
-    assert.equal(moment.locale(), 'hu');
-    assert.equal(moment(1486734611189).format('dddd'), 'péntek');
-
-    // in node require moment will load all locales
-    // so basically that's all we can test for now
-    // momentLoader.default('ja');
-
-    rm('tmp.js');
   });
 });
 

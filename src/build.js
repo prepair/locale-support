@@ -106,7 +106,7 @@ function updateMetaData () {
 function updateReadme () {
   let readmePath = path.resolve(__dirname, '../README.md');
   let target = cat(readmePath) + '';
-  let locales = supportedLocales.map(item => item.momentId).sort();
+  let locales = supportedLocales.map(item => item.dotNetId).sort();
   target = target.replace(/(supportedLocales = )\[.*?](;)/, `$1${JSON.stringify(locales)}$2`);
   target.to(readmePath);
 }
