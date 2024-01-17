@@ -25,7 +25,7 @@ module.exports = {
     { dotNetId: 'ro-RO', currency: ['RON', 'MDL'], cldr: 'ro' },
     { dotNetId: 'ru-RU', currency: 'RUB', cldr: 'ru' },
     { dotNetId: 'sk-SK', currency: 'EUR', cldr: 'sk' },
-    { dotNetId: 'sq-AL', currency: 'EUR', cldr: 'sq' },
+    { dotNetId: 'sq-AL', currency: 'ALL', cldr: 'sq' },
     { dotNetId: 'sv-SE', currency: 'SEK', cldr: 'sv' },
     { dotNetId: 'sr-Cyrl-CS', currency: 'RSD', cldr: 'sr-Cyrl' },
     { dotNetId: 'uk-UA', currency: 'UAH', cldr: 'uk' },
