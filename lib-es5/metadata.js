@@ -143,102 +143,102 @@ module.exports = {
       'currencyFormat': '%s%v'
     }
   },
-  'currencies': {
-    'AED': {
-      'symbol': '.د.إ',
-      'precision': 2
+  "currencies": {
+    "AED": {
+      "symbol": ".د.إ",
+      "precision": 2
     },
-    'ALL': {
-      'symbol': 'L',
-      'precision': 2
+    "ALL": {
+      "symbol": "L",
+      "precision": 2
     },
-    'BAM': {
-      'symbol': 'KM',
-      'precision': 2
+    "BAM": {
+      "symbol": "KM",
+      "precision": 2
     },
-    'BGN': {
-      'symbol': 'лв',
-      'precision': 2
+    "BGN": {
+      "symbol": "лв",
+      "precision": 2
     },
-    'CHF': {
-      'symbol': 'CHF',
-      'precision': 2
+    "CHF": {
+      "symbol": "CHF",
+      "precision": 2
     },
-    'CZK': {
-      'symbol': 'Kč',
-      'precision': 2
+    "CZK": {
+      "symbol": "Kč",
+      "precision": 2
     },
-    'DKK': {
-      'symbol': 'kr',
-      'precision': 2
+    "DKK": {
+      "symbol": "kr",
+      "precision": 2
     },
-    'EUR': {
-      'symbol': '€',
-      'precision': 2
+    "EUR": {
+      "symbol": "€",
+      "precision": 2
     },
-    'GBP': {
-      'symbol': '£',
-      'precision': 2
+    "GBP": {
+      "symbol": "£",
+      "precision": 2
     },
-    'GEL': {
-      'symbol': '₾',
-      'precision': 2
+    "GEL": {
+      "symbol": "₾",
+      "precision": 2
     },
-    'HRK': {
-      'symbol': 'kn',
-      'precision': 2
+    "HRK": {
+      "symbol": "kn",
+      "precision": 2
     },
-    'HUF': {
-      'symbol': 'Ft',
-      'precision': 0
+    "HUF": {
+      "symbol": "Ft",
+      "precision": 0
     },
-    'ILS': {
-      'symbol': '₪',
-      'precision': 2
+    "ILS": {
+      "symbol": "₪",
+      "precision": 2
     },
-    'LVL': {
-      'symbol': 'Ls',
-      'precision': 2
+    "LVL": {
+      "symbol": "Ls",
+      "precision": 2
     },
-    'MDL': {
-      'symbol': 'MDL',
-      'precision': 2
+    "MDL": {
+      "symbol": "MDL",
+      "precision": 2
     },
-    'MKD': {
-      'symbol': 'ден',
-      'precision': 2
+    "MKD": {
+      "symbol": "ден",
+      "precision": 2
     },
-    'NOK': {
-      'symbol': 'kr',
-      'precision': 2
+    "NOK": {
+      "symbol": "kr",
+      "precision": 2
     },
-    'PLN': {
-      'symbol': 'zł',
-      'precision': 2
+    "PLN": {
+      "symbol": "zł",
+      "precision": 2
     },
-    'RON': {
-      'symbol': 'lei',
-      'precision': 2
+    "RON": {
+      "symbol": "lei",
+      "precision": 2
     },
-    'RSD': {
-      'symbol': 'Дин.',
-      'precision': 2
+    "RSD": {
+      "symbol": "Дин.",
+      "precision": 2
     },
-    'RUB': {
-      'symbol': '₽',
-      'precision': 2
+    "RUB": {
+      "symbol": "₽",
+      "precision": 2
     },
-    'SEK': {
-      'symbol': 'kr',
-      'precision': 2
+    "SEK": {
+      "symbol": "kr",
+      "precision": 2
     },
-    'UAH': {
-      'symbol': '₴',
-      'precision': 2
+    "UAH": {
+      "symbol": "₴",
+      "precision": 2
     },
-    'USD': {
-      'symbol': '$',
-      'precision': 2
+    "USD": {
+      "symbol": "$",
+      "precision": 2
     }
   }
 };
