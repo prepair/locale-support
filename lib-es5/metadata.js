@@ -1,146 +1,146 @@
-"use strict";
+'use strict';
 
 module.exports = {
-  "locales": {
-    "hu-hu": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+  'locales': {
+    'hu-hu': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "bg-bg": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'bg-bg': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "bs-latn-ba": {
-      "thousand": ".",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'bs-latn-ba': {
+      'thousand': '.',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "ca-es": {
-      "thousand": ".",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'ca-es': {
+      'thousand': '.',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "cs-cz": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'cs-cz': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "de-de": {
-      "thousand": ".",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'de-de': {
+      'thousand': '.',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "en-gb": {
-      "thousand": ",",
-      "decimal": ".",
-      "currencyFormat": "%s%v"
+    'en-gb': {
+      'thousand': ',',
+      'decimal': '.',
+      'currencyFormat': '%s%v'
     },
-    "es-es": {
-      "thousand": ".",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'es-es': {
+      'thousand': '.',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "fr-fr": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'fr-fr': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "he-il": {
-      "thousand": ",",
-      "decimal": ".",
-      "currencyFormat": "%v %s"
+    'he-il': {
+      'thousand': ',',
+      'decimal': '.',
+      'currencyFormat': '%v %s'
     },
-    "it-it": {
-      "thousand": ".",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'it-it': {
+      'thousand': '.',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "lv-lv": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'lv-lv': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "mk-mk": {
-      "thousand": ".",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'mk-mk': {
+      'thousand': '.',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "lt-lt": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'lt-lt': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "nl-nl": {
-      "thousand": ".",
-      "decimal": ",",
-      "currencyFormat": "%s %v"
+    'nl-nl': {
+      'thousand': '.',
+      'decimal': ',',
+      'currencyFormat': '%s %v'
     },
-    "nb-no": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%s %v"
+    'nb-no': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%s %v'
     },
-    "pl-pl": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'pl-pl': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "pt-pt": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'pt-pt': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "ro-ro": {
-      "thousand": ".",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'ro-ro': {
+      'thousand': '.',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "ru-ru": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'ru-ru': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "sk-sk": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'sk-sk': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "sq-al": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'sq-al': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "sv-se": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'sv-se': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "sr-cyrl-cs": {
-      "thousand": ".",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'sr-cyrl-cs': {
+      'thousand': '.',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "uk-ua": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'uk-ua': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "ka-ge": {
-      "thousand": " ",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'ka-ge': {
+      'thousand': ' ',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "el-gr": {
-      "thousand": ".",
-      "decimal": ",",
-      "currencyFormat": "%v %s"
+    'el-gr': {
+      'thousand': '.',
+      'decimal': ',',
+      'currencyFormat': '%v %s'
     },
-    "ar-ae": {
-      "thousand": ",",
-      "decimal": ".",
-      "currencyFormat": "%s%v"
+    'ar-ae': {
+      'thousand': ',',
+      'decimal': '.',
+      'currencyFormat': '%s%v'
     }
   },
   "currencies": {
