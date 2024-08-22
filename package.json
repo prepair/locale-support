@@ -1,6 +1,6 @@
 {
   "name": "@prepair/locale-support",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Locale related data for prepair in a bundle.",
   "main": "lib-es5/index.js",
   "directories": {
