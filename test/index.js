@@ -60,7 +60,7 @@ describe('mod rewrite partial regexp string', () => {
   it('should return a partial rule for all the dotnet locales', () => {
     assert.equal(
       lib.getModRewriteRex(),
-      'ar-ae|bg-bg|bs-latn-ba|ca-es|cs-cz|de-de|el-gr|en-gb|es-es|fr-fr|he-il|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sq-al|sr-cyrl-cs|sv-se|uk-ua'
+      'ar-ae|bg-bg|bs-latn-ba|ca-es|cs-cz|de-de|el-gr|en-gb|es-es|fr-fr|he-il|hi-in|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sq-al|sr-cyrl-cs|sv-se|uk-ua|zh-cn'
     );
   });
 
@@ -71,7 +71,7 @@ describe('mod rewrite partial regexp string', () => {
   it('should return a partial rule for non rtl locales', () => {
     assert.equal(
       lib.getModRewriteRex({ rtl: false }),
-      'bg-bg|bs-latn-ba|ca-es|cs-cz|de-de|el-gr|en-gb|es-es|fr-fr|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sq-al|sr-cyrl-cs|sv-se|uk-ua'
+      'bg-bg|bs-latn-ba|ca-es|cs-cz|de-de|el-gr|en-gb|es-es|fr-fr|hi-in|hu-hu|it-it|ka-ge|lt-lt|lv-lv|mk-mk|nb-no|nl-nl|pl-pl|pt-pt|ro-ro|ru-ru|sk-sk|sq-al|sr-cyrl-cs|sv-se|uk-ua|zh-cn'
     );
   });
 });

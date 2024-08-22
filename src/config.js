@@ -31,6 +31,8 @@ module.exports = {
     { dotNetId: 'uk-UA', currency: 'UAH', cldr: 'uk' },
     { dotNetId: 'ka-GE', currency: 'GEL', cldr: 'ka' },
     { dotNetId: 'el-GR', currency: 'EUR', cldr: 'el' },
-    { dotNetId: 'ar-ae', currency: 'AED', cldr: 'ar', rtl: true }
+    { dotNetId: 'ar-ae', currency: 'AED', cldr: 'ar', rtl: true },
+    { dotNetId: 'zh-CN', currency: 'EUR', cldr: 'zh' },
+    { dotNetId: 'hi-IN', currency: 'EUR', cldr: 'hi' }
   ]
 };
