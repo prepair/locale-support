@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/prepair/locale-support/compare/v2.0.0...v2.2.0) (2024-08-22)
+
+
+### Features
+
+* add Chinese and Hindi language support ([6b7c097](https://github.com/prepair/locale-support/commit/6b7c097))
+
+
+
 <a name="2.0.1"></a>
 ## [2.0.1](https://github.com/prepair/locale-support/compare/v2.0.0...v2.0.1) (2024-01-17)
 
